@@ -1,6 +1,6 @@
 # YAML marshaling and unmarshaling support for Go
 
-[![Build Status](https://travis-ci.org/ghodss/yaml.svg)](https://travis-ci.org/ghodss/yaml)
+[![Build Status](https://travis-ci.org/mbilski/yaml.svg)](https://travis-ci.org/mbilski/yaml)
 
 ## Introduction
 
@@ -32,13 +32,13 @@ GOOD:
 To install, run:
 
 ```
-$ go get github.com/ghodss/yaml
+$ go get github.com/mbilski/yaml
 ```
 
 And import using:
 
 ```
-import "github.com/ghodss/yaml"
+import "github.com/mbilski/yaml"
 ```
 
 Usage is very similar to the JSON library:
@@ -49,7 +49,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ghodss/yaml"
+	"github.com/mbilski/yaml"
 )
 
 type Person struct {
@@ -93,7 +93,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ghodss/yaml"
+	"github.com/mbilski/yaml"
 )
 
 func main() {
